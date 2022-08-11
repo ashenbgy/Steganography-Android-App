@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="32sp"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="95dp"
+            android:background="@drawable/cover"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="මෙමගින් ඔබට ඔබගේ ගැලරිය තුළ ඇති ඡායාරූපයක් තුළ පණිවිඩයක් සඟවා එය අන් අය සමඟ හුවමාරු කරගත හැකිය."/>
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="360dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="තවද ඔබ යම් ඡායාරූපයක කේතාංකනය කරන ලද රහස්‍ය අංකය දන්නේ නම්, ඒ තුළ ඇති පණිවිඩය මෙමගින් විකේතනය කරගත හැක."/>
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="420dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="මෙමගින් ඔබට"/>
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="440dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="* ඡායාරූපයක් තුළ පණිවිඩයක් සැඟවිය හැකිය"/>
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="460dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="* ඡායාරූප තුළ කේතාංකනය කර ඇති පණිවිඩ විකේතනය කර හැකිය"/>
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="495dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="* ඔබගේ ගැලරි යෙදවුම තුළ ඇති ඡායාරූප මේ සඳහා යොදාගත හැක"/>
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="620dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Developed | Alpha Ash"/>
+
+
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
