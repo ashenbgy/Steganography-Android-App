@@ -17,4 +17,3 @@ Secondly, decrypt the compressed message from the decoded message using the secr
 Finally, decompress the message to get the original compressed message.
 
 ![menu](https://user-images.githubusercontent.com/43198468/185630282-07c6f610-1cf1-4329-9715-faa486a24b6d.png)
-![about](https://user-images.githubusercontent.com/43198468/185630331-84b1e0a5-d2dd-41e6-8296-592b7c92f1c7.png)
